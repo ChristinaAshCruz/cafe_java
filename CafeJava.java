@@ -9,8 +9,8 @@ public class CafeJava {
         
         // Menu variables (add yours below)
         double mochaPrice = 3.5;
-        double lattePrice = 1.75;
-        double cappucinoPrice = 5.25;
+        double lattePrice = 4.50;
+        double cappucinoPrice = 4.25;
         double coffeePrice = 3.00;
     
         // Customer name variables (add yours below)
@@ -65,6 +65,7 @@ public class CafeJava {
         System.out.println("---------------------------------------");
 
         // Jimmy interactions
-        System.out.println("Sorry, Jimmy, you still owe us $" + String.format("%.2f",(cappucinoPrice - coffeePrice)));
+        System.out.println("Sorry, Jimmy, you still owe us $" + String.format("%.2f",(lattePrice - coffeePrice)));
+
     }
 }
